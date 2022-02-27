@@ -1,0 +1,29 @@
+/*タブレット用*/
+@media(max-width:768px) {
+  .fa-bars {
+    display: block;
+    font-size: 35px;
+    padding-top: 25px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .work-content img{
+    width: 49%;
+    float: left;
+    padding-top: 20px;
+  }
+}
+/*スマートフォン用*/
+@media(max-width:376px) {
+  .work-wrapper {
+    width: 100%;
+  }
+  .work-wrapper img{
+    width: 100%;
+  }
+  .skill-wrapper {
+    padding-bottom: 280px;
+    width: 100%;
+  }
+}
